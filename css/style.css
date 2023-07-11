@@ -21,10 +21,10 @@ body{
 }
 .pokemon_image{
     position: absolute;
-    bottom: 55%;
+    bottom: 62%;
     left: 50%;
     transform: translate(-63%, 20%);
-    height: 18%;
+    height: 13%;
 }
 .pokemon_data{
     position: absolute;
@@ -58,4 +58,30 @@ body{
 }
 .buttom{
     position: absolute;
+    margin-top: 31.5rem;
+    margin-left: 2.5rem;
+    display: flex;
+    gap: 20px;
+
 }
+.button{
+    width: 9rem;
+    padding: 3%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vh, 1rem);
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+
+    
+}
+.button:active{
+    box-shadow: inset -4px -4px 0 #222;
+    background-color: red;
+    font-size: 0.9rem;
+}
+
+
