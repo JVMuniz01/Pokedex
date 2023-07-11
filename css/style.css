@@ -8,6 +8,8 @@
 main{
     display: inline-block;
     margin-top: 2%;
+    padding: 15px;
+    position: relative;
 }
 body{
     text-align: center;
@@ -21,17 +23,17 @@ body{
 }
 .pokemon_image{
     position: absolute;
-    bottom: 62%;
+    bottom: 55%;
     left: 50%;
     transform: translate(-63%, 20%);
-    height: 13%;
+    height: 18%;
 }
 .pokemon_data{
     position: absolute;
     font-weight: 600;
     color: #aaa;
-    top: 42.5%;
-    right: 44%;
+    top: 54.5%;
+    right: 27%;
     font-size:clamp(8px, 5vw, 25px);
 }
 .pokemon_name{
@@ -42,12 +44,13 @@ body{
 
 .form{
     position: absolute;
-    width: 20%;
-    top: 50%;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
 }
 .input_search{
-    width: 80%;
-    padding: 3%;
+    width: 100%;
+    padding: 4%;
     outline: none;
     border-radius: 5px;
     border: solid 2px #333;
