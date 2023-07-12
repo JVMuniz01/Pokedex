@@ -19,7 +19,7 @@ const fetchPokemon = async (pokemon) => { //função para pegar dados da API do 
     if (APIResponse.status == 200) { // validação para saber se o existe o pokemon de acordo com a busca
         const data = await APIResponse.json(); // aqui criamos a variavel data com o .json para termos acessos a parametros especificos do pokemon
 
-        return data;
+        return data; // retorna as informaçoes do data para renderizar na função de baixo
     }
 
 }
